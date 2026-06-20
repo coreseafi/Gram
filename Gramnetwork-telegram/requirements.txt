@@ -1,0 +1,5 @@
+inquirer
+web3
+colorama
+aiohttp
+aiohttp_socks
