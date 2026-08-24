@@ -10,7 +10,7 @@ Environment variables:
   TASK_CHECK_INTERVAL_SECONDS - seconds between task runs (default: 21600 = 6h)
   BOOST_COOLDOWN_SECONDS    - seconds between boost cycles (default: 7200 = 2h)
   MINING_SESSION_SECONDS    - expected mining session length (default: 14400 = 4h)
-  MAX_CONCURRENT            - parallel accounts (default: 6)
+  MAX_CONCURRENT            - parallel accounts (default: all)
 """
 
 import asyncio
