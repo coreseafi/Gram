@@ -12,7 +12,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ACCOUNTS_FILE = os.path.join(ROOT_DIR, "accounts.txt")
 PROXIES_FILE = os.path.join(ROOT_DIR, "proxies.txt")
 
-MAX_CONCURRENT = int(os.getenv("MAX_CONCURRENT", "5"))
+MAX_CONCURRENT = int(os.getenv("MAX_CONCURRENT", "6"))
 MAX_RETRIES = 3
 RETRY_DELAY = 2
 
